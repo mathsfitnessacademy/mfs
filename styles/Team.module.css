@@ -1,0 +1,127 @@
+.container{
+    padding: 50px 0;
+    margin: auto;
+    width: 80%;
+    background: #F2F6F8 0% 0% no-repeat padding-box;
+}
+.header{
+    margin-bottom: 20px;
+    text-align: center;
+    font: normal normal 900 40px/61px "Lato";
+    color: #3A3564;
+    text-transform: uppercase;
+}
+.block{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.box{
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    background: #101A56;
+}
+
+
+.role{
+    text-align: right;
+    font: normal normal normal 14px/21px "Lato";
+    color: #E9777D;
+}
+.photo{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 15px auto;
+    overflow: hidden;
+}
+
+.name{
+    text-align: left;
+    font: normal normal 900 16px/22px "Lato";
+    color: #FFFFFF;
+    text-transform: uppercase;
+    float: left;
+}
+.plus{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url('../public/plus2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 200px;
+    margin-top: -3px;
+}
+
+.box2{
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+.boxHead{
+    text-align: center;
+    font: normal normal 900 30px/42px "Lato";
+    color: #101A56;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.desc{
+    text-align: center;
+    font: normal normal normal 13px/24px "Lato";
+    color: #101A56;
+}
+@media only screen and (max-width: 1280px){
+ 
+}
+
+@media only screen and (max-width: 1024px){
+   
+}
+
+@media only screen and (max-width: 768px){
+    
+}
+@media only screen and (max-width: 480px){
+    .header{
+        font: normal normal 900 30px/48px "Lato";
+    }   
+    .block{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .box,.box2{
+        margin: 5px;
+        padding: 5px;
+        width: 200px;
+        height: 200px;
+    }
+    .role{
+        text-align: right;
+        font: normal normal normal 14px/21px "Lato";
+        color: #E9777D;
+    }
+    .photo{
+        width: 100px;
+        height: 100px;
+        margin: 20px auto;
+    }
+    
+    .plus{
+        margin-left: 155px;
+        margin-top: -8px;
+    }
+}
+@media only screen and (max-width: 280px){
+
+}

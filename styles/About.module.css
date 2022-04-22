@@ -1,0 +1,144 @@
+.container{
+    width: 100%;
+    padding: 50px;
+}
+.cardContainer{
+    display: flex;
+}
+.card1{
+    width: 50%;
+    padding: 60px;
+}
+.title{
+    margin-left: 15%;
+    margin-bottom: 30px;
+    text-align: left;
+    font: normal normal bold 40px/60px "Segoe UI";
+    color: #3A3564;
+    text-transform: uppercase;
+}
+.description{
+    margin-left: 15%;
+    max-width: 400px;
+    text-align: left;
+    font: normal normal normal 17px/28px "Segoe UI";
+    color: #3A3564;
+}
+.card2{
+    background-image: url('../public/aboutbg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+}
+.dots{
+    position: absolute;
+    margin-left: 10%;   
+}
+.dots1{
+    position: absolute;
+    display: none;
+}
+.bgimg1{
+    display: none;
+}
+
+@media only screen and (max-width: 1280px){
+    .card1{
+        width: 50%;
+        padding: 0px;
+    }
+    .title{
+        margin-left: 7%;
+        margin-bottom: 30px;
+        padding: 5px;
+    }
+    .description{
+        padding: 5px;
+        margin-left: 7%;
+        max-width: 400px;
+    }
+    .dots{
+        margin-top: -6%;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .container{
+        width: 100%;
+        padding: 30px;
+    }
+    .card1{
+        width: 50%;
+        padding: 0px;
+    }
+    .title{
+        margin-left: 3%;
+        margin-bottom: 30px;
+        padding: 4px;
+    }
+    .description{
+        padding: 4px;
+        margin-left: 3%;
+    }
+    .dots{
+        margin-top: -6%;
+
+    }
+}
+@media only screen and (max-width: 768px){
+    .container{
+        width: 100%;
+        padding: 30px;
+    }
+    .card1{
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        padding: 40px 0;
+    }
+    .card2{
+        display: none;
+    }
+    .title{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 10px;
+        font: normal normal bold 30px/50px "Segoe UI";
+        padding: 4px;
+    }
+    .description{
+        text-align: center;
+        margin: auto;
+        max-width: 600px;
+        padding: 4px;
+        font: normal normal normal 14px/24px "Segoe UI";
+    }
+    .bgimg{
+        display: none;
+    }
+    .dots{
+        display: none;
+    }
+    .bgimg1{
+        position: absolute;
+        display: block;
+        margin-top: 50px;
+    }
+    .dots1{
+        opacity: .6;
+        position: absolute;
+        display: block;
+        margin-top: 150px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .title{
+        font: normal normal 900 30px/48px "Lato";
+    }  
+    
+}
+@media only screen and (max-width: 280px){
+    .dots1{
+        display: none;
+    }
+ 
+}

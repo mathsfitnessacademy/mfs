@@ -1,0 +1,48 @@
+.container{
+    margin: 20px auto;
+    width: 100%;
+    padding: 10px;
+}
+.banner{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 300px;
+    background-image: url('../public/bgimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    z-index: 0;
+    border-radius: 10px;
+    padding: 20px;
+}
+.boxBack{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent linear-gradient(101deg, #E84048 0%, #FFB73B 100%) 0% 0% no-repeat;
+    opacity: .9;
+    border-radius: 10px;
+}
+.bannerHead{
+    text-align: center;
+    z-index: 2;
+    font: normal normal bold 36px/48px "Lato";
+    color: #FCFCFC;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner{
+        width: 95%;
+    }
+    .bannerHead{
+        text-align: center;
+        z-index: 2;
+        font: normal normal bold 24px/32px "Lato";
+        color: #FCFCFC;
+    }
+}

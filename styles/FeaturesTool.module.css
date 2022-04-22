@@ -1,0 +1,133 @@
+.container{
+    background: #FCFCFC 0% 0% no-repeat padding-box;
+    margin: 20px auto;
+    width: 100%;
+    padding: 10px;
+}
+.title{
+    margin: 20px auto;
+    text-align: center;
+    font: normal normal bold 40px/60px "Segoe UI";
+    color: #3A3564;
+    text-transform: uppercase;
+}
+.redcolor{
+    font: normal normal bold 40px/60px "Segoe UI";
+    color: #E84048;
+}
+.polydot{
+    background: none;
+    margin-left: 70%;
+    margin-top: -2%;
+    position: absolute;
+}
+.tridot{
+    background: none;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 1%;
+}
+.tri{
+    position: absolute;
+    background: none;
+    margin-top: 35%;
+    margin-left: 7%;
+}
+.plus{
+    position: absolute;
+    background: none;
+    margin-left: 80%;
+    margin-top: 55%;
+}
+
+
+.blockContainers{
+    margin: 10px auto;
+}
+.block{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0 60px 0;
+}
+.box{
+    padding: 20px 50px;
+    width: 400px;
+    height: 200px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.block .box:nth-child(2){
+    border-right: #cfcfcf 1px solid;
+    border-left: #cfcfcf 1px solid;
+}
+.boxImage{
+    margin: 10px auto;
+}
+.boxHeader{
+    text-align: center;
+    font: normal normal bold 20px/25px "Lato";
+    color: #E84048;
+    margin-bottom: 10px;
+}
+.boxDesc{
+    font: normal normal normal 17px/30px "Lato";
+    text-align: center;
+    color: #494949;
+}
+@media only screen and (max-width: 1024px) {
+    .box{
+        padding: 20px 20px;
+        width: 400px;
+        height: 200px;
+        margin: 0px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .boxHeader{
+        font: normal normal bold 15px/22px "Lato";
+    }
+    .boxDesc{
+        font: normal normal normal 12px/22px "Lato";
+    }
+}
+@media only screen and (max-width: 600px) {
+    .block{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .boxHeader{
+        font: normal normal bold 20px/25px "Lato";
+    }
+    .boxDesc{
+        font: normal normal normal 17px/30px "Lato";
+    }
+    .block .box:nth-child(2){
+        border: none;
+    }
+}
+@media only screen and (max-width: 480px){
+    .box{
+        padding: 20px 20px;
+        width: auto;
+        height: auto;
+        min-width: 200px;
+        max-width: 400px;        
+        margin: 10px 10px;
+        border-bottom: #cfcfcf 1px solid;
+    }
+    .block .box:nth-child(2){
+        border: none;
+        border-bottom: #cfcfcf 1px solid;
+    }
+    .block:nth-child(3) .box:nth-child(3){
+        border-bottom: none;
+    }
+}

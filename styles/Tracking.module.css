@@ -1,0 +1,128 @@
+.container{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+.welcomeHeader{
+    margin: 20px;
+    font: normal normal normal 22px/30px "Lato";
+    letter-spacing: 0px;
+    color: #E84048;
+    opacity: 1;
+}
+.header{
+    margin: 20px auto;
+    font: normal normal 900 40px/56px "Lato";
+    max-width: 50%;
+    letter-spacing: 0px;
+    color: #3A3564;
+    text-transform: uppercase;
+}
+.desc{
+    margin: 20px auto;
+    max-width: 800px;
+    font: normal normal normal 17px/30px "Lato";
+    color: #494949;
+}
+.bgcircle{
+    position: absolute;
+    background: none;
+    margin-left: -5%;
+    margin-top: 5%;
+}
+.block{
+    margin: 0 auto;
+    display: flex;
+    max-width: 60%;
+}
+.box{
+    text-align: left;
+    margin: 0 10px;
+    z-index: 1;
+    padding: 20px;
+    max-width: 33%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 50px #0000001F;
+    border-radius: 10px;
+}
+
+.boxDesc{
+    text-align: center;
+    font: normal normal bold 17px/30px "Lato";
+    color: #000000;
+}
+
+.listItems{
+    margin: 20px;
+    list-style: square;
+    text-align: left;
+    color: #707070;
+}
+.listItems li{
+    font: normal normal normal 16px/28px "Lato";
+}
+
+.box:nth-child(2){
+    background: #F17142 0% 0% no-repeat padding-box;
+}
+.box:nth-child(2) .boxDesc, .box:nth-child(2) .listItems{
+    color: #FFFFFF;
+}
+.iconBox{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -25%;
+}
+.plus{
+    z-index: -1;
+    margin: 0 auto;
+    background: none;
+}
+
+@media only screen and (max-width: 1280px) {
+    .block{
+        margin: 0 auto;
+        display: flex;
+        max-width: 80%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .block{
+        max-width: 100%;
+    }
+}
+    
+@media only screen and (max-width: 768px) {
+    .block{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .box{
+        text-align: left;
+        margin:10px;
+        z-index: 1;
+        padding: 20px;
+        width: 400px;
+        max-width: 100%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 50px #0000001F;
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .header{
+        font: normal normal 900 30px/48px "Lato";
+        max-width: 100%;
+    }        
+}
+
+@media only screen and (max-width: 300px) {
+     
+}
+    
+    

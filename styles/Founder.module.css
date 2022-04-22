@@ -1,0 +1,218 @@
+.container{
+    background: #FCFCFC 0% 0% no-repeat padding-box;
+    margin: 30px auto;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+}
+.bgimg1{
+    display: none;
+}
+.card1{
+    width: 50%;
+}
+.card2{
+    max-width: 40%;
+    padding: 0 20px 20px 20px;
+    margin-left: 2%;
+}
+.bgimg{
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    margin-left: 150px;
+    background-image: url('../public/founder.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 410px;
+    height: 450px;
+}
+
+.title{ 
+    margin-bottom: 15px;
+    text-align: left;
+    font: normal normal bold 40px/60px "Segoe UI";
+    color: #3A3564;
+    text-transform: uppercase;
+}
+.quote{
+    margin-bottom: 15px;
+}
+.quotes{
+    padding-left: 30px;
+    padding-bottom: 80px;
+    background-image: url('../public/textbox.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.description{
+    max-width: 400px;
+    text-align: left;
+    font: normal normal normal 17px/28px "Segoe UI";
+    color: #3A3564;
+}
+
+.name{
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font: normal normal 900 27px/37px 'Lato';
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #E84048;
+
+}
+
+.role{
+    text-align: left;
+    text-transform: uppercase;
+    font: normal normal 900 16px/22px 'Lato';
+    color: #3A3564;
+}
+.trired{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url('../public/trired.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 600px;
+    left: 80px;
+}
+.triblue{
+    position: absolute;
+    margin-top: 50px;
+    left: 80vw;
+    width: 40px;
+    height: 40px;
+    background: url('../public/triblue.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.plus{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: 550px;
+    left: 50vw;
+    background: url('../public/plus.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+@media only screen and (max-width: 1280px){
+    .card2{
+        max-width: 50%;
+    }
+    .bgimg{
+        margin-top: 20px;
+        margin-left: 13%;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .card1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+    }
+    .card2{
+        max-width: 60%;
+    }
+    .bgimg{
+        margin-top: 20px;
+        margin-left: 0;
+        width: 338px;
+        height: 360px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card1{
+        display: none;
+    }
+    .card2{
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .bgimg1{
+        position: absolute;
+        left: 200px;
+        margin-top: -20px;
+        display: flex;
+        align-items: flex-end;
+        background-image: url('../public/founder.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 82px;
+        height: 90px;
+    }
+
+}
+@media only screen and (max-width: 600px){
+    .bgimg1{
+        left: 150px;
+        width: 82px;
+        height: 90px;
+    }
+    
+}
+@media only screen and (max-width: 480px){
+    .container{
+        padding: 10px;
+        margin: 10px auto;
+    }
+    .title{ 
+        text-align: center;
+    }
+    .card2{
+        padding: 2px;
+    }
+    .bgimg1{
+        position: relative;
+        left: auto;
+        text-align: center;
+        margin: auto;
+        width: 168px;
+        height: 180px;
+    }
+    .quote{
+        display: none;
+    }
+    .quotes{
+        background: none;
+    }
+    .description{
+        margin: auto;
+        max-width: 100%;
+        text-align: left;
+        font: normal normal normal 17px/28px "Segoe UI";
+    }
+    
+    .name{
+        margin-top: -50px;
+        text-align: right;
+        font: normal normal 900 24px/34px 'Lato';
+        letter-spacing: 0px;
+        text-transform: uppercase;
+        color: #E84048;
+    
+    }
+    .role{
+        text-align: right;
+        text-transform: uppercase;
+        font: normal normal 900 14px/20px 'Lato';
+        color: #3A3564;
+    }
+    .title{
+        font: normal normal 900 30px/48px "Lato";
+    }   
+}
+@media only screen and (max-width: 280px){
+
+}

@@ -1,0 +1,203 @@
+.container{
+    width: 100%;
+    padding: 50px;
+    display: block;
+}
+.header{
+    background: #FFF8F0 0% 0% no-repeat padding-box;
+    padding: 50px;
+    border-radius: 20px;
+    height: 600px;
+}
+.tridown{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background: url('../public/tridown.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 520px;
+    margin-left: 84%;
+    
+}
+.triup{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -6%;
+    background: url('../public/triup.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.title{
+    margin-left: 10%;
+    margin-bottom: 30px;
+    text-align: left;
+    font: normal normal bold 40px/60px "Segoe UI";
+    color: #3A3564;
+    text-transform: uppercase;
+}
+.redcolor{
+    font: normal normal bold 40px/60px "Segoe UI";
+    color: #E84048;
+}
+
+.description{
+    margin-left: 10%;
+    margin-bottom: 50px;
+    text-align: left;
+    font: normal normal normal 17px/30px "Lato";
+    color: #3A3564;
+}
+
+.block{
+    margin: -300px auto 0 auto;
+    display: flex;
+    max-width: 80%;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 10px;
+    z-index: 1;
+    padding: 20px;
+    width: 33%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 50px #0000001F;
+    border-radius: 10px;
+}
+.boxDet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boxTitle{
+    text-align: center;
+    font: normal normal bold 30px/42px "Lato";
+    color: #E84048;
+    margin-bottom: 10px;
+}
+.boxIcon{
+    margin:20px auto;
+    width: 80px;
+    height: 70px;
+    background-image: url('../public/board.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.boxDesc li{
+    text-align: left;
+    font: normal normal normal 17px/30px "Lato";
+    color: #3A3465;
+    margin-left: 10px;
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+.button{
+    padding: 10px 50px;
+    margin: 20px auto 10px auto;
+    background: transparent linear-gradient(101deg, #E84048 0%, #FFB73B 100%) 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 5px;
+    opacity: 1;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+.box:nth-child(2){
+    background: #3A3465 0% 0% no-repeat padding-box;
+}
+.box:nth-child(2) .boxDesc li{
+    color: #FFFFFF;
+}
+
+
+.box:nth-child(2) .boxIcon{
+    width: 60px;
+    height: 70px;
+    background-image: url('../public/read.png');
+}
+@media only screen and (max-width: 1280px) {
+     
+}
+@media only screen and (max-width: 1024px) {
+    .triup{
+        display: none;
+    }
+    .tridown{
+        display: none;
+    }
+    .container{
+        width: 100%;
+        padding: 10px;
+        display: block;
+    }
+    .block{
+        margin: -200px auto 0 auto;
+        display: flex;
+        max-width: 90%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .block{
+        margin: -200px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 80%;
+    }
+    .box{
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container{padding: 10px;}
+    .header{width: 100%;padding: 20px;}
+    .title{
+        margin-left: 0%;        
+        text-align: center;
+    }
+    .description{
+        margin-left: 0;
+        text-align: left;
+    }
+    .box{
+        max-width: 90%;
+    }
+    
+}
+@media only screen and (max-width: 480px) {
+    .title{
+        font: normal normal 900 30px/48px "Lato";
+    } 
+    .redcolor{
+        font: normal normal 900 30px/48px "Lato";
+    }  
+    .block{
+        margin: 0 auto 0 auto;
+        display: flex;
+        max-width: 100%;
+    }
+    .box{
+        max-width: 80%;
+        margin: 20px auto;
+    }
+    .box{
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 300px) {
+     
+}

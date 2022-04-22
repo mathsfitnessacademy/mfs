@@ -1,0 +1,134 @@
+.container{
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.header{
+    margin: 20px;
+    font: normal normal 900 40px/61px "Lato";
+    color: #3A3564;
+    text-transform: uppercase;
+}
+.desc{
+    margin: 20px auto;
+    max-width: 800px;
+    font: normal normal normal 17px/30px "Lato";
+    color: #494949;
+}
+.exp{
+    margin: 20px;
+    font: normal normal bold 27px/37px "Lato";
+    color: #E84048;
+}
+.block{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    max-width: 60%;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 10px;
+}
+.box{
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    text-align: left;
+    padding: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 50px #0000001F;
+    border-radius: 10px;
+    color: #000;
+    transition: 1s ease;
+    margin: 10px;
+}
+.boxHeader{
+    font: normal normal bold 20px/25px "Lato";
+    letter-spacing: 0px;
+    color: #272C42;
+    margin-bottom: 30px;
+}
+.boxDesc{
+    margin: 30px 0;
+    font: normal normal bold 14px/27px "Lato";
+    color: #494949;
+}
+.box:hover{
+    background-color: #E84048;
+}
+.box:hover .boxHeader, .box:hover .boxDesc{
+    color: #FFFFFF;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: -150px;
+    z-index: 0;
+}
+.imageContainer1{
+    z-index: 0;
+    margin-left: 100px;
+}
+.imageContainer2{
+    z-index: 0;
+    margin: 50px 70px 0 0;  
+}
+
+@media only screen and (max-width: 1280px) {
+    
+}
+@media only screen and (max-width: 1024px) {
+    .block{
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .block{
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .block{
+        display: inline-grid;
+        grid-template-columns: auto;
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 480px){
+    .header{
+        margin: 10px auto;
+        text-align: center;
+        font: normal normal 900 30px/48px "Lato";
+    }   
+    .box{
+        display: inline-block;
+        width: 200px;
+        height: 300px;
+        text-align: left;
+        padding: 20px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 50px #0000001F;
+        border-radius: 10px;
+        color: #000;
+        transition: 1s ease;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .block{
+        display: inline-block;
+        max-width: 100%;
+    }
+    .box{
+        height: 400px;
+    }
+}
+

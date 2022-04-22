@@ -1,0 +1,179 @@
+.container{
+    width: 100%;
+    padding: 50px;
+    display: block;
+}
+.polydot{
+    position: absolute;
+    left: 60%;
+    margin-top: -150px;
+}
+.trired{
+    position: absolute;
+    left: 7%;margin-top: 200px;
+}
+.plus{
+    position: absolute;
+    left: 60%;
+    margin-top: 250px;
+}
+.title{
+    margin-left: 10%;
+    margin-bottom: 30px;
+    text-align: left;
+    font: normal normal bold 40px/60px "Segoe UI";
+    color: #3A3564;
+    text-transform: uppercase;
+}
+.redcolor{
+    font: normal normal bold 40px/60px "Segoe UI";
+    color: #E84048;
+}
+
+.description{
+    margin-left: 10%;
+    margin-bottom: 50px;
+    text-align: left;
+    font: normal normal normal 17px/30px "Lato";
+    color: #3A3564;
+}
+
+.card{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    margin: 40px auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 50px #0000001F;
+    border-radius: 20px;
+}
+.weeklybg{
+    width: 50%;
+    background-image: url('../public/teachbg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.dailybg{
+    width: 50%;
+    background-image: url('../public/studybg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.weekly{
+    width: 50%;
+    padding: 20px;
+    text-align: left;
+}
+.daily{
+    width: 50%;
+    padding: 20px;
+    text-align: left;
+}
+
+.intitle{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font: normal normal bold 30px/42px "Lato";
+    color: #3A3564;
+}
+.indesc{
+    font: normal normal normal 15px/30px "Lato";
+    color: #494949;
+    margin-bottom: 10px;
+}
+.button{
+    padding: 10px 50px;
+    margin: 10px auto;
+    background: transparent linear-gradient(101deg, #E84048 0%, #FFB73B 100%) 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 5px;
+    opacity: 1;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1280px) {
+    .container{padding: 20px;}
+    .card{width: 90%;}
+     
+}
+@media only screen and (max-width: 1024px) {
+    .card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .weeklybg{
+        width: 100%;
+        min-height: 400px;
+        background-image: url('../public/teachbg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .dailybg{
+        width: 100%;
+        min-height: 400px;
+        background-image: url('../public/studybg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .weekly{
+        width: 100%;
+        padding: 10px;
+        text-align: left;
+    }
+    .daily{
+        width: 100%;
+        padding: 10px;
+        text-align: left;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+    .card{
+        width: 100%;
+    }  
+}
+@media only screen and (max-width: 600px){
+    .container{padding: 10px;}
+    .header{width: 100%;}
+    .title{
+        margin-left: 0%;        
+        text-align: center;
+    }
+    .redcolor{
+        font: normal normal bold 40px/60px "Segoe UI";
+        color: #E84048;
+    }
+    .description{
+        margin-left: 0;
+        text-align: left;
+    }
+}
+@media only screen and (max-width: 480px) {
+
+    .title{
+        font: normal normal 900 30px/48px "Lato";
+    } 
+    .redcolor{
+        font: normal normal 900 30px/48px "Lato";
+    } 
+    .weeklybg{
+        min-height: 300px;
+    }
+    .dailybg{
+        min-height: 300px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .weeklybg{
+        min-height: 200px;
+    }
+    .dailybg{
+        min-height: 200px;
+    } 
+}

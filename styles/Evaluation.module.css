@@ -1,0 +1,128 @@
+.container{
+    margin: 20px auto;
+    width: 100%;
+    padding: 10px;
+}
+.title{
+    margin: 20px auto;
+    text-align: center;
+    font: normal normal bold 40px/60px "Segoe UI";
+    color: #3A3564;
+    text-transform: uppercase;
+}
+.redcolor{
+    font: normal normal bold 40px/60px "Segoe UI";
+    color: #E84048;
+}
+.tridot{
+    background: none;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 1%;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCFCFC;
+    margin: 30px;
+    width: 350px;
+    padding: 40px 25px;
+    border-radius: 10px;
+}
+.box:nth-child(2){
+    background-color: #f7f7f7;
+}
+.boxImage{
+    margin-bottom: 30px;
+}
+.boxDesc{
+    font: normal normal normal 17px/30px "Lato";
+    text-align: center;
+    color: #494949;
+}
+@media only screen and (max-width: 1284px) {
+    
+    .box{
+        margin: 20px;
+        width: 350px;
+        padding: 40px 10px;
+        border-radius: 10px;
+    }
+
+}
+@media only screen and (max-width: 1024px) {
+    .box{
+        margin: 10px;
+        width: 270px;
+        padding: 40px 10px;
+        border-radius: 10px;
+        height: 400px;
+    }
+    .boxImage{
+        width: 130px;
+        height: 135px;
+        margin-bottom: 30px;
+    }
+    .box:nth-child(3) .boxImage{
+        width: 180px;
+    }
+    .boxDesc{
+        font: normal normal normal 15px/24px "Lato";
+        text-align: center;
+        color: #494949;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .block{
+        flex-direction: column;
+    }
+    .box{
+        margin: 30px;
+        width: 350px;
+        padding: 40px 25px;
+        border-radius: 10px;
+    }
+    .boxImage{
+        width: 165px;
+        height: 170px;
+        margin-bottom: 30px;
+    }
+    .box:nth-child(3) .boxImage{
+        width: 250px;
+    }
+    .boxDesc{
+        font: normal normal normal 17px/30px "Lato";
+        text-align: center;
+        color: #494949;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .box{
+        margin: 10px;
+        width: 270px;
+        padding: 40px 10px;
+        border-radius: 10px;
+        height: 400px;
+    }
+    .boxImage{
+        width: 130px;
+        height: 135px;
+        margin-bottom: 30px;
+    }
+    .box:nth-child(3) .boxImage{
+        width: 180px;
+    }
+    .boxDesc{
+        font: normal normal normal 15px/24px "Lato";
+        text-align: center;
+        color: #494949;
+    }
+}

@@ -1,0 +1,177 @@
+.container{
+    background: #FCFCFC 0% 0% no-repeat padding-box;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+.welcomeHeader{
+    margin: 20px;
+    font: normal normal normal 22px/30px "Lato";
+    letter-spacing: 0px;
+    color: #E84048;
+    opacity: 1;
+}
+.header{
+    margin: 20px;
+    font: normal normal 900 40px/56px "Lato";
+    letter-spacing: 0px;
+    color: #3A3564;
+    text-transform: uppercase;
+}
+.desc{
+    margin: 20px auto;
+    max-width: 800px;
+    font: normal normal normal 17px/30px "Lato";
+    color: #494949;
+}
+.exp{
+    margin: 20px;
+    font: normal normal bold 27px/37px "Lato";
+    color: #E84048;
+}
+.block{
+    display: flex;
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 10px;
+}
+.box{
+    z-index: 1;
+    text-align: left;
+    padding: 20px;
+    width: 19%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 50px #0000001F;
+    border-radius: 10px;
+    color: #000;
+    transition: 1s ease;
+}
+.boxHeader{
+    font: normal normal bold 20px/25px "Lato";
+    letter-spacing: 0px;
+    color: #272C42;
+}
+.boxHeader:nth-child(2){
+    margin-bottom: 20px;
+}
+.boxDesc{
+    margin: 20px 0;
+    font: normal normal bold 10px/18px "Lato";
+    color: #494949;
+}
+.box:hover{
+    background-color: #E84048;
+}
+.box:hover .boxHeader, .box:hover .boxDesc{
+    color: #FFFFFF;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: -150px;
+    z-index: 0;
+}
+.imageContainer1{
+    z-index: 0;
+    margin-left: 100px;
+}
+.imageContainer2{
+    z-index: 0;
+    margin: 50px 70px 0 0;  
+}
+.dotbg{
+    position: absolute;
+    width: 230px;
+    height: 190px;
+    background: url('../public/dots.svg');
+    margin-top: -50px;
+    left: 100px;
+}
+@media only screen and (max-width: 1280px) {
+.block{
+        max-width: 85vw;
+}
+.boxHeader{
+    margin-bottom: 10px;
+    font: normal normal bold 18px/23px "Lato";
+}
+.boxDesc{
+    margin: 10px 0;
+    font: normal normal bold 8px/16px "Lato";
+}
+.dotbg{
+    margin-top: -50px;
+    left: 50px;
+}
+}
+@media only screen and (max-width: 1024px) {
+    .block{
+        max-width: 100%;
+}
+    .box{
+        width: 19%;
+        padding: 10px;
+    }    
+    .boxHeader{
+        margin-bottom: 8px;
+        font: normal normal bold 16px/23px "Lato";
+    }
+    .boxDesc{
+        margin: 10px 0;
+        font: normal normal bold 8px/16px "Lato";
+    }
+    .dotbg{
+        margin-top: -100px;
+        left: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .block{
+        display: inline-block;
+        max-width: 100%;
+    }
+    .box{
+        z-index: 5;
+        display: inline-block;
+        margin: 10px 10px;
+        width: 250px;
+        padding: 10px; 
+    }
+    .images{
+        position: absolute;
+    }
+    .dotbg{
+        width: 180px;
+        height: 180px;
+        z-index: 0;
+        margin-top: -500px;
+        left: 10px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .header{
+        font: normal normal 900 30px/48px "Lato";
+    }
+    .block{
+        display: inline-block;
+        max-width: 100%;
+    }
+    .box{
+        display: inline-block;
+        margin: 5px 5px;
+        width: 190px;
+        padding: 10px; 
+    }
+    .images{
+        position: absolute;
+    }
+    .dotbg{
+        margin-top: -700px;
+        left: 10px;
+    }
+}
+

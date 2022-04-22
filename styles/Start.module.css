@@ -1,0 +1,348 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.header{
+    margin: 20px auto;
+    width: 80%;
+}
+.arrow1{
+    display: none;
+}
+.title{
+    text-align: center;
+    font: normal normal 900 40px/61px "Lato";
+    color: #E84048;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.description{
+    text-align: center;
+    font: normal normal normal 17px/30px "Lato";
+    color: #101A56;
+    margin-bottom: 20px;
+}
+.flow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    width: 700px
+}
+.startText{
+    margin: auto 10px;
+    font: normal normal 900 35px/53px "Lato";
+    color: #F68A40;
+    text-transform: uppercase;
+}
+
+.startarrow{
+    margin: auto 0 auto 10px;
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid #F68A40;
+    z-index: 1;
+    background-color: transparent;
+}
+.arrow{
+    margin: auto 10px auto 0;
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #F68A40;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.steps{
+    display: flex;
+    margin-left: -15px;
+    margin-bottom: 0;
+    margin-top: 0;
+    z-index: 0;
+}
+/*Text Box*/
+.step{
+    z-index: 0;
+    width: 300px;
+    height: 120px;
+    background: transparent linear-gradient(120deg, #E5F1FC 0%, #EBE8FE 48%, #F2F5FF 100%) 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px 0 0;
+}
+.headText{
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+    width: 85%;
+    margin: auto;
+}
+.head1{
+    color: #3A3465;
+    font: normal normal bold 15px/21px "Lato";
+    margin-bottom: 10px;
+}
+.head2{
+    color: #E84048;
+    font: normal normal bold 15px/21px "Lato";
+}
+.steps1{
+    display: flex;
+    z-index: 0;
+}
+.finishText{
+    margin: auto 10px;
+    font: normal normal 900 35px/53px "Lato";
+    color: #E84048;
+    text-transform: uppercase;
+}
+
+.finisharrow{
+    margin: auto 0 auto -15px;
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid #E84048;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.steps1 .arrow{
+    border-left: 15px solid #E84048;
+}
+
+@media only screen and (max-width: 1280px) {
+    .step{
+        width: 200px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .head1{
+        font: normal normal bold 12px/18px "Lato";
+    }
+    .head2{
+        font: normal normal bold 12px/18px "Lato";
+    }
+
+    .startText{
+        font: normal normal 900 28px/44px "Lato";
+    }
+    .finishText{
+        font: normal normal 900 28px/44px "Lato";
+    }
+    .startarrow{
+        margin: auto 0 auto 5px;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 20px solid #F68A40;
+    }
+    .arrow{
+        margin: auto 5px auto 0;
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+        border-left: 10px solid #F68A40;
+    }
+    .finisharrow{
+        margin: auto 0 auto -15px;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 20px solid #E84048;
+    }
+    .steps1 .arrow{
+        border-left: 10px solid #E84048;
+    }
+
+}
+@media only screen and (max-width: 1024px) {
+    .step{
+        width: 180px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .head1{
+        font: normal normal bold 12px/18px "Lato";
+    }
+    .head2{
+        font: normal normal bold 12px/18px "Lato";
+    }
+
+    .startText{
+        font: normal normal 900 28px/44px "Lato";
+    }
+    
+    .startarrow{
+        margin: auto 0 auto 5px;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 20px solid #F68A40;
+    }
+    .arrow{
+        margin: auto 5px auto 0;
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+        border-left: 10px solid #F68A40;
+    }
+    .finisharrow{
+        margin: auto 0 auto -15px;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 20px solid #E84048;
+    }
+    .steps1 .arrow{
+        border-left: 10px solid #E84048;
+    }
+     
+}
+@media only screen and (max-width: 768px) {
+    .flow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%
+    }
+    .finishText{
+        font: normal normal 900 35px/53px "Lato";
+        margin: 10px;
+    }
+    .startText{
+        margin: 10px;
+        font: normal normal 900 35px/53px "Lato";
+    }
+    .startarrow{
+        margin: 10px auto;
+        border-right: 20px solid transparent;
+        border-left: 20px solid transparent;
+        border-top: 30px solid #F68A40;
+    }
+    .finisharrow{
+        margin: 10px auto;
+        border-right: 20px solid transparent;
+        border-left: 20px solid transparent;
+        border-top: 30px solid #E84048;
+    }
+    .steps,.steps1{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Text Box*/
+    .step{
+        width: 300px;
+        height: 120px;
+        margin: 20px 20px 20px 10px;
+    }
+    .arrow{
+        margin: -10px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 15px solid #F68A40;
+    }
+    .steps1 .arrow{
+        margin: -10px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 15px solid #E84048;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+
+}
+@media only screen and (max-width: 480px) {
+    .title{
+        font: normal normal 900 30px/48px "Lato";
+    } 
+    .redcolor{
+        font: normal normal 900 30px/48px "Lato";
+    } 
+    .flow{
+        margin: auto;
+        margin-bottom: 1px;
+    }
+
+    .finishText{
+        font: normal normal 900 30px/48px "Lato";
+        margin: 5px;
+    }
+    .startText{
+        margin: 5px;
+        font: normal normal 900 30px/48px "Lato";
+    }
+    .startarrow{
+        margin: 5px auto;
+        border-right: 15px solid transparent;
+        border-left: 15px solid transparent;
+        border-top: 25px solid #F68A40;
+    }
+    .finisharrow{
+        margin: 5px auto;
+        border-right: 15px solid transparent;
+        border-left: 15px solid transparent;
+        border-top: 25px solid #E84048;
+    }
+    .step{
+        width: 200px;
+        height: 120px;
+        margin: 20px auto 20px auto;
+    }
+    .arrow{
+        margin: -10px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 15px solid #F68A40;
+    }
+    .steps1 .arrow{
+        margin: -10px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 15px solid #E84048;
+    }
+
+ 
+
+}
+@media only screen and (max-width: 300px) {
+    .finishText{
+        font: normal normal 900 30px/48px "Lato";
+        margin: 10px;
+    }
+    .startText{
+        margin: 10px;
+        font: normal normal 900 30px/48px "Lato";
+    }
+    .step{
+        width: 150px;
+        height: 100px;
+        margin: 10px auto 20px auto;
+    }
+    .head1{
+        font: normal normal bold 12px/15px "Lato";
+    }
+    .head2{
+        font: normal normal bold 12px/15px "Lato";
+    }
+    
+}

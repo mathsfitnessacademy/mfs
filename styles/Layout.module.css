@@ -1,0 +1,437 @@
+
+.navbar {
+    z-index: 998;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+    transition: top 0.3s;
+
+}
+.active {
+    position: fixed;
+    background-color: #FFFFFF;
+}
+
+.navlogo{
+    z-index: 998;
+    width: 180px;
+    height: 50px;
+    padding: 10px;
+}
+
+.menucontainer{
+    z-index: 998;
+    width: 82vw;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+}
+.navmenu {
+    z-index: 998;
+    list-style-type: none;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.navitem {
+    z-index: 998;
+    margin-left: 1rem;
+    display: inline;
+}
+
+.navlink{
+    font: normal normal normal 12px/16px "Lato";
+    text-decoration: none;
+    color: #3A3564;
+    text-transform: uppercase;
+}
+
+.navlink:hover{
+    color: #E84048;
+}
+.selectednav{
+    color: #E84048;
+}
+.navCol{
+    display: flex;
+    padding: 10px;
+}
+/*Responsive bar*/
+.hamburger {
+    display: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    }
+.hamburger:hover,
+.hamburger:focus {
+    background:transparent;
+}
+.hamburger:focus {
+      outline: none;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #222222;
+}
+/*Buttons*/
+.btn{
+    z-index: 999;
+    padding: 5px 35px;
+    text-decoration: none;
+    font: normal normal normal 12px/16px "Lato";
+    background: transparent linear-gradient(101deg, #E84048 0%, #FFB73B 100%) 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 5px;
+    opacity: 1;
+    font-size: 1rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: .7;
+}
+.bluebtn{
+    z-index: 999;
+    cursor: pointer;
+    margin: 5px;
+    font: normal normal normal 12px/16px "Lato";
+    padding: 5px 35px;
+    text-decoration: none;
+    background: #3A3564;
+    border: none;
+    border-radius: 5px;
+    opacity: 1;
+    font-size: 1rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.bluebtn:hover{
+    opacity: .7;
+}
+.roundBtns{display: none;}
+.roundBtn1{display: none;}
+.roundBtn2{display: none;}
+
+
+/*For Footer*/
+
+.footbtn{
+    width: 150px;
+    padding: 5px 25px;
+    text-decoration: none;
+    font: normal normal normal 10px/16px "Lato";
+    background: transparent linear-gradient(101deg, #E84048 0%, #FFB73B 100%) 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 5px;
+    opacity: 1;
+    font-size: 1rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 5px;
+    cursor: pointer;
+}
+.footbtn:hover{
+    opacity: .7;
+}
+
+.footer{
+    background-color: #fff;
+}
+
+.contact_footer{
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px;
+}
+
+.icon{
+    display: inline-flex;
+    margin: 10px;
+    margin: 0 auto;
+    padding: 0 35px;
+    align-items: center;
+}
+.iconImage1{
+    margin-right: 5px;
+    height: 40px;
+    display: flex;
+    align-items:center;
+    width: 22px;
+    height: 40px;
+}
+.iconImage2{
+    margin-right: 5px;
+    height: 40px;
+    display: flex;
+    align-items:center;
+    width:41px;
+    height: 29px;
+}
+.caption{
+    text-align: left;
+    font: normal normal normal 15px/21px "Lato";
+    color: #3C3766;
+}
+.contact{
+    text-align: left;
+    font: normal normal normal 16px/24px "Lato";
+    color: #3C3766;
+}
+
+.footnav{
+    width: 40%;
+    margin: 20px auto 10px auto;
+}
+.footitems{
+    list-style: none;
+    display: flex;
+    text-align: left;
+    color: #3A3564;
+    text-transform: uppercase;
+    margin: 30px auto;
+    justify-content: space-between;
+}
+.footnavlink{
+    font: normal normal normal 13px/19px "Lato";
+    text-decoration: none;
+    color: #3A3564;
+    text-transform: uppercase;
+    margin: 20px;
+}
+.footnavlink:hover{
+    color: #E84048;
+
+}
+.social_icons{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+}
+.socialIcon:hover{
+    opacity: .3;
+    transition: .5s;
+}
+.copyright{
+    text-align: center;
+    margin: 20px auto;
+    font: normal normal normal 14px/20px "Lato";
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+@media only screen and (max-width: 1280px){
+    .contact_footer{
+        width: 70vw;
+        padding: 20px;
+    }
+    .footnav{
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .menucontainer{
+        width: 80vw;
+    }
+    .contact_footer{
+        width: 80vw;
+        padding: 20px;
+    }
+    .footnav{
+        width: 60vw;
+    }
+    .social_icons{
+        width: 20vw;
+    }
+    
+}
+@media only screen and (max-width: 968px) {
+    .btn,.bluebtn{
+        padding: 5px 15px;
+    }
+    .footnav{
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+        padding: 20px
+    }
+    .navmenu {
+        position: fixed;
+        right: -50%;
+        top: 0;
+        flex-direction: column;
+        background-color: #fff;
+        width: 50%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.4s;
+        box-shadow:0;
+    }
+    .navmenu.active {
+        right:-5px;
+    }
+
+    .navitem {
+        display: block;
+        margin: 2rem auto;
+    }
+    .btn{
+        display: none;
+    }
+    .bluebtn{
+        display: none;
+    }
+
+    .hamburger {
+        position: relative;
+        
+        display: block;
+        z-index: 999;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    .roundBtns{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        width: 150px;
+        align-items: center;
+        justify-content: center;
+    }
+    .roundBtn1,.roundBtn2{
+        display: block;
+        background: transparent;
+        margin: 5px;
+        width: 50px;
+        height: 50px;
+        border: none;
+    }
+    .roundBtn1:hover,.roundBtn2:hover{
+        opacity: .7;
+    }
+    .contact_footer{
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+    .icon{
+        text-align: center;
+        display: block;
+        margin: 20px auto;
+        padding: 0 35px;
+        align-items: center;
+    }
+    .iconImage1{
+        margin: 5px auto;
+        height: 40px;
+        display: flex;
+        align-items:center;
+        width: 22px;
+        height: 40px;
+    }
+    .iconImage2{
+        margin: 5px auto;
+        height: 40px;
+        display: flex;
+        align-items:center;
+        width:41px;
+        height: 29px;
+    }
+    .caption{
+        text-align: center;
+        font: normal normal normal 15px/21px "Lato";
+        color: #3C3766;
+    }
+    .contact{
+        text-align: center;
+        font: normal normal normal 16px/24px "Lato";
+        color: #3C3766;
+    }
+    .footbtn{
+        margin: 10px auto;
+    }
+    .footnav{
+        width:90%;
+    }
+    .social_icons{
+        width: 30vw;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .footnav{
+        width:98%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .footnav{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .footitems{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto;
+        text-transform: uppercase;
+        justify-content: space-between;
+    }
+    .footitems li{
+        margin: 10px auto;
+
+    }
+    .footnavlink{
+        font: normal normal bold 13px/20px "Lato";
+        color: #3A3564;
+    }
+    .social_icons{
+        width: 70vw;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .roundBtn1,.roundBtn2{
+        display: block;
+        margin: 0 1px;
+        width: 30px;
+        height: 30px;
+        border: none;
+    }
+}

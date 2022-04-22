@@ -1,0 +1,145 @@
+.container{
+    width: 100%;
+    padding: 50px;
+}
+.cardContainer{
+    display: flex;
+}
+.card1{
+    width: 50%;
+    padding: 10px 50px;
+}
+.title{
+    margin-left: 15%;
+    margin-bottom: 30px;
+    text-align: left;
+    font: normal normal bold 40px/60px "Segoe UI";
+    color: #3A3564;
+    text-transform: uppercase;
+}
+.redcolor{
+    font: normal normal bold 40px/60px "Segoe UI";
+    color: #E84048;
+}
+.desc1{
+    margin-left: 15%;
+    max-width: 400px;
+    text-align: left;
+    font: normal normal 600 20px/34px "Segoe UI";
+    color: #3A3564;
+    margin-bottom: 30px;
+}
+.desc2{
+    margin-left: 15%;
+    max-width: 400px;
+    text-align: left;
+    font: normal normal normal 17px/24px "Lato";
+    color: #3A3564;
+    opacity: 1;
+}
+.card2{
+    background-image: url('../public/tool_bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 500px;
+}
+
+@media only screen and (max-width: 1280px){
+    .card1{
+        width: 50%;
+        padding: 0px;
+    }
+    .title{
+        margin-left: 7%;
+        margin-bottom: 30px;
+        padding: 5px;
+    }
+    .desc1{
+        padding: 5px;
+        margin-left: 7%;
+        max-width: 400px;
+    }
+    .desc2{
+        padding: 5px;
+        margin-left: 7%;
+        max-width: 400px;
+    }
+
+}
+@media only screen and (max-width: 1024px){
+    .cardContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .card1{
+       width: 100%;
+    }
+    .desc1{
+        max-width: 800px;
+    }
+    .desc2{
+        max-width: 800px;    
+    }
+    .card2{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 768px){
+
+    .card1{
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        padding: 40px 0;
+    }
+    .card2{
+        width: 400px;
+        height: 400px;
+    }
+
+
+}
+@media only screen and (max-width: 600px){
+.title{
+    text-align: center;
+    margin-left: 0;
+}
+.container{
+    padding: 10px;
+}
+.desc1{
+    text-align: left;
+    margin-left: 0;
+}
+.desc2{
+    text-align: left;
+    margin-left: 0;
+}   
+}
+@media only screen and (max-width: 480px){
+    .title{
+        font: normal normal 900 30px/48px "Lato";
+    } 
+    .redcolor{
+        font: normal normal 900 30px/48px "Lato";
+    } 
+    .card2{
+        width: 300px;
+        height: 300px;
+    }
+
+}
+@media only screen and (max-width: 280px){
+    .dots1{
+        display: none;
+    }
+    .card2{
+        width: 250px;
+        height: 250px;
+    }
+}
