@@ -3,5 +3,7 @@ module.exports = {
   images: {
     loader: "akamai",
     path: "",
-  }
+  },
+  basePath: "/mfs",
+  assetPrefiix: "/mfs",
 }
