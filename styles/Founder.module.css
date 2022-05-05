@@ -21,11 +21,12 @@
     align-items: flex-end;
     text-align: center;
     margin-left: 150px;
-    background-image: url('../public/founder.png');
+    background-image: url('../public/founder.jpeg');
     background-repeat: no-repeat;
     background-size: contain;
-    width: 410px;
-    height: 450px;
+    border-radius: 50%;
+    width: 380px;
+    height: 380px;
 }
 
 .title{ 
@@ -146,7 +147,8 @@
         margin-top: -20px;
         display: flex;
         align-items: flex-end;
-        background-image: url('../public/founder.png');
+
+        background-image: url('../public/founder.jpeg');
         background-repeat: no-repeat;
         background-size: contain;
         width: 82px;

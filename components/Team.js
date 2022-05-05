@@ -9,9 +9,9 @@ function Team() {
         <div className={styles.container}>
             <h1 className={styles.header}>OUR TEAM</h1>
             <div className={styles.block}>
-                <Person role="Founder Director" path="/face.png" name="Yousef .c.t"></Person>
-                <Person role="Head of Mentoring" path="/face.png" name="Dr. Sameena"></Person>
-                <Person role="Technical Lead" path="/face.png" name="Hisham .U"></Person>
+                <Person role="Founder Director" path="/founder.jpeg" name="Yousef CT"></Person>
+                <Person role="Head of Mentoring" path="/mentor.jpg" name="Dr. Sameena"></Person>
+                <Person role="Technical Lead" path="/technical.jpg" name="Hisham U"></Person>
                 <div className={styles.box2}>
                     <h1 className={styles.boxHead}>HAVE A QUESTION?</h1>
                     <p className={styles.desc}>Feel free to contact us if you would like to learn more about us.</p>

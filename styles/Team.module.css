@@ -22,6 +22,7 @@
 .box{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     text-align: center;
     margin: 20px;
     width: 250px;
@@ -45,6 +46,7 @@
 }
 
 .name{
+    margin: 5px;
     text-align: left;
     font: normal normal 900 16px/22px "Lato";
     color: #FFFFFF;
@@ -61,10 +63,12 @@
 }
 
 .box2{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin: 20px;
-    padding: 10px;
     width: 250px;
     height: 250px;
 }
@@ -80,6 +84,9 @@
     text-align: center;
     font: normal normal normal 13px/24px "Lato";
     color: #101A56;
+}
+.finalRow{
+
 }
 @media only screen and (max-width: 1280px){
  
