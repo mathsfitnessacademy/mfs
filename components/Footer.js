@@ -14,7 +14,7 @@ function Footer() {
                     </div>
                     <div className={styles.footTexts}>
                         <h3 className={styles.caption}>Call</h3>
-                        <h3 className={styles.contact}>9895XXXXXX</h3>
+                        <h3 className={styles.contact}>+91 9895237349</h3>
                     </div>
                 </div>
                 <div className={styles.icon}>
@@ -26,7 +26,9 @@ function Footer() {
                         <h3 className={styles.contact}>info&#64;fitnessacademy&#183;com</h3>
                     </div>
                 </div>
-                <Link  href='/contact' passHref><button className={styles.footbtn}>BOOK A FREE DEMO</button></Link>
+                <div className={styles.icon}>
+                    <Link  href='/contact' passHref><button className={styles.footbtn}>BOOK A FREE DEMO</button></Link>
+                </div>
             </div>
             <div style={{ borderTop: "2px solid #eee ", marginLeft: 60, marginRight: 60 }}></div>
             <div className={styles.footnav}>

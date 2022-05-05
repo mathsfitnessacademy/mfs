@@ -12,7 +12,7 @@ function Evaluation(){
         return () => window.removeEventListener('scroll',handleScroll);
     },[]);
     return(
-        <div className={styles.container}>
+        <div id='eva' className={styles.container}>
             <div className={styles.tridot} style={{transform:`translateY(${offsetY * .2}px)`}}><Image src="/triup.png" width={110} height={110} alt=""/></div>
             <h1 className={styles.title}>Student <span className={styles.redcolor}>Evaluation</span></h1>
             <div className={styles.block}>

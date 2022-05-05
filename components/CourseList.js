@@ -1,6 +1,7 @@
 import styles from '../styles/CourseList.module.css'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
+import Link from "next/link"
 
 function CourseList() {
     const [offsetY,setOffsetY] = useState(0);
@@ -48,11 +49,11 @@ function CourseList() {
                             <li>Validity: 66 days</li>
                         </ul>
                         </div>
-                        <button className={styles.button}>Book For Free Demo</button>
+                        <Link href='/contact' passHref><button className={styles.button}>Book For Free Demo</button></Link>
                     </div>
                     <div className={styles.box}>
                         <div className={styles.boxDet}>
-                        <h1 className={styles.boxTitle}>Advanced Level</h1>
+                        <h1 className={styles.boxTitle}>Recorded</h1>
                         <div className={styles.boxIcon}></div>
                         <ul className={styles.boxDesc}>
                             <li>Recorded sessions.</li>
@@ -71,7 +72,7 @@ function CourseList() {
                             <li>Validity: 66 days</li>
                         </ul>
                         </div>
-                        <button className={styles.button}>Book For Free Demo</button>
+                        <Link href='/contact' passHref><button className={styles.button}>Book For Free Demo</button></Link>
                     </div>
                     <div className={styles.box}>
                         <div className={styles.boxDet}>
@@ -98,7 +99,7 @@ function CourseList() {
                             </li>
                         </ul>
                         </div>
-                        <button className={styles.button}>Book For Free Demo</button>
+                        <Link href='/contact' passHref><button className={styles.button}>Book For Free Demo</button></Link>
                     </div>
                 </div>
 

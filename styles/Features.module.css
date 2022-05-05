@@ -24,7 +24,6 @@
 .block{
     display: inline-grid;
     grid-template-columns: auto auto auto;
-    max-width: 60%;
     justify-content: space-between;
     margin: 20px auto;
     padding: 10px;
@@ -81,24 +80,26 @@
 }
 @media only screen and (max-width: 1024px) {
     .block{
-        max-width: 100%;
+        grid-template-columns: auto auto;
     }
 
 }
 
 @media only screen and (max-width: 768px) {
-    .block{
-        display: inline-grid;
-        grid-template-columns: auto auto;
-        max-width: 100%;
-    }
+
 }
 
 @media only screen and (max-width: 600px) {
+    .container{
+        padding: 0;
+    }
     .block{
-        display: inline-grid;
-        grid-template-columns: auto;
         max-width: 100%;
+        width: 90%;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
     }
 }
 @media only screen and (max-width: 480px){
@@ -107,28 +108,10 @@
         text-align: center;
         font: normal normal 900 30px/48px "Lato";
     }   
-    .box{
-        display: inline-block;
-        width: 200px;
-        height: 300px;
-        text-align: left;
-        padding: 20px;
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        box-shadow: 0px 3px 50px #0000001F;
-        border-radius: 10px;
-        color: #000;
-        transition: 1s ease;
-        margin: 10px;
-    }
 }
 
 @media only screen and (max-width: 300px) {
-    .block{
-        display: inline-block;
-        max-width: 100%;
-    }
-    .box{
-        height: 400px;
-    }
+
+
 }
 

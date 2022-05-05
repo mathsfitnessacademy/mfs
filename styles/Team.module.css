@@ -13,31 +13,34 @@
 }
 .block{
     width: 100%;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 .box{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin: 20px;
-    padding: 10px;
     width: 250px;
     height: 250px;
     background: #101A56;
 }
 
-
 .role{
+    margin: 5px;
     text-align: right;
     font: normal normal normal 14px/21px "Lato";
     color: #E9777D;
 }
 .photo{
     text-align: center;
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
-    margin: 15px auto;
+    margin: 10px auto;
     overflow: hidden;
 }
 
@@ -49,14 +52,12 @@
     float: left;
 }
 .plus{
-    position: absolute;
     width: 40px;
     height: 40px;
+    float: right;
     background-image: url('../public/plus2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 200px;
-    margin-top: -3px;
 }
 
 .box2{

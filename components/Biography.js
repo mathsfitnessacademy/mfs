@@ -1,8 +1,10 @@
+import React, { useState } from 'react'
 import styles from '../styles/Biography.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 
-function FeatureCard(){
+function Biography(){
+    const [showBiography,setShowBiography] = useState(false);
     return(
     <div className={styles.box}>
         <h1 className={styles.name}>Full Name</h1>
@@ -13,4 +15,4 @@ function FeatureCard(){
     )
 }
 
-export default FeatureCard
+export default Biography

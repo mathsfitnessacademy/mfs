@@ -44,11 +44,11 @@ function Contact() {
                     </div>
                     <div className={styles.icon}>
                         <div className={styles.iconImage2}></div>
-                        <h3 className={styles.text}>info@fitnessacademy&middot;com</h3>
+                        <h3 className={styles.text}>Info@mathsfitnessacademy&middot;com</h3>
                     </div>
                     <div className={styles.icon}>
                         <div className={styles.iconImage3}></div>
-                        <h3 className={styles.text}>Aysha villa, Parannur.P.O, 673585, Kerala </h3>
+                        <h3 className={styles.text}>C.M Mathew Brothers Arcade, West Nadakkave, Kozhikode, Kerala 673006 </h3>
                     </div>
                     <div className={styles.social_icons}>
                         <Link href='/'><a className={styles.iconLink}><div className={styles.socialIcon1}></div></a></Link>
@@ -77,7 +77,7 @@ function Contact() {
                                 <input autoComplete="off" autofill="off" id="phone" type="text" name="phone"/>
                             </div>
                         </div>
-                        <h1 className={styles.innerHead}>How do you want to collaberate?</h1>
+                        <h1 className={styles.innerHead}>How do you want to collaborate?</h1>
                         <div className={styles.radioButtons}>
                             <label htmlFor="demo" className={styles.radioLabel}>
                                 <input type="radio" id="demo" name="mfs" value="demo" className={styles.defaultRadio}/>

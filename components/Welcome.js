@@ -28,7 +28,7 @@ function Welcome(){
             <h2 className={styles.welcomeHeader}>Welcome to Maths Fitness Academy</h2>
             <h1 className={styles.header}>Would you like to be fit in math?</h1>
             <p className={styles.desc}>Bringing about change is determined by three factors: learning better techniques, fostering a positive mindset, and regular practice. Through our interactive live online sessions, we motivate and teach them the necessary techniques. We provide them with a web application that allows them to practice on a daily basis.</p>
-            <h2 className={styles.exp}>Some text should be here.</h2>
+            <h2 className={styles.exp}>Be fit in an art of problem solving.</h2>
             <div className={styles.block}>
                 <div className={styles.box} onMouseEnter={()=>setIsHovering1(true)} onMouseLeave={()=>setIsHovering1(false)}>
                     <h1 className={styles.boxHeader}>24/7</h1>

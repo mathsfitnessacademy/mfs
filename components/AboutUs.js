@@ -21,7 +21,7 @@ function AboutUs() {
                     <h1 className={styles.title}>
                         About Us
                     </h1>
-                    <p className={styles.description}>Math is a subject that most students would rather avoid, or they would rather be weak at math or slow at math. Most students lack basic mathematical skills. In response to this problem, we have developed a training program that increases students&quot; interest in the subject, improves their calculation speed, efficiency, and enhances their overall mathematical skills.</p>
+                    <p className={styles.description}>Math is a subject that most students would rather avoid, or they would rather be weak at math or slow at math. Most students lack basic mathematical skills. In response to this problem, we have developed a training program that increases students&rsquo; interest in the subject, improves their calculation speed, efficiency, and enhances their overall mathematical skills.</p>
                 </div>
                 <div className={styles.card2}>
                     <div className={styles.bgimg} style={{transform:`translateY(${offsetY * .5}px)`}}><Image src="/img2.svg" width={560} height={410} alt="" /></div>
