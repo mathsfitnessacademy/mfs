@@ -296,6 +296,9 @@
         display: block;
         margin: 2rem auto;
     }
+    .navlogo{
+        padding: 0;
+    }
     .btn{
         display: none;
     }
@@ -305,7 +308,6 @@
 
     .hamburger {
         position: relative;
-        
         display: block;
         z-index: 999;
         cursor: pointer;

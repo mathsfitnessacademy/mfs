@@ -40,10 +40,10 @@ function Footer() {
                     <li><Link href='/contact' passHref><a className={styles.footnavlink}>Contact</a></Link></li>
                 </ul>
                 <div className={styles.social_icons}>
-                    <Link href='/' passHref><a className={styles.iconLink}><div className={styles.socialIcon}><Image src="/fb.svg" width={35} height={35} alt=""/></div></a></Link>
-                    <Link href='/' passHref><a className={styles.iconLink}><div className={styles.socialIcon}><Image src="/insta.svg" width={36} height={35} alt=""/></div></a></Link>
-                    <Link href='/' passHref><a className={styles.iconLink}><div className={styles.socialIcon}><Image src="/twitter.svg" width={35} height={35} alt=""/></div></a></Link>
-                    <Link href='/' passHref><a className={styles.iconLink}><div className={styles.socialIcon}><Image src="/youtube.svg" width={35} height={35} alt=""/></div></a></Link>
+                    <Link href='https://www.facebook.com/mathsfitnessacademy' passHref><a className={styles.iconLink}><div className={styles.socialIcon}><Image src="/fb.svg" width={35} height={35} alt=""/></div></a></Link>
+                    <Link href='https://www.instagram.com/mathsfitnessacademy' passHref><a className={styles.iconLink}><div className={styles.socialIcon}><Image src="/insta.svg" width={35} height={35} alt=""/></div></a></Link>
+                    <Link href='https://www.linkedin.com/company/maths-fitness-academy/' passHref><a className={styles.iconLink}><div className={styles.socialIcon}><Image src="/linkedin-blue.svg" width={35} height={35} alt=""/></div></a></Link>
+                    <Link href='' passHref><a className={styles.iconLink}><div className={styles.socialIcon}><Image src="/whatsapp.svg" width={35} height={35} alt=""/></div></a></Link>
                 </div>
             </div>
             <div style={{ borderTop: "2px solid #eee ", marginLeft: 60, marginRight: 60 }}></div>
