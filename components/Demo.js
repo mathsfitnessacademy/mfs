@@ -14,7 +14,7 @@ function Demo(){
     return (
         <div className={styles.container}>
             <h1 className={styles.header}>Want a Free Demo?</h1>
-            <Link  href='/contact' passHref><button className={styles.button}>Book a free demo</button></Link>
+            <Link  href='https://api.whatsapp.com/send?phone=919895237349' passHref><button className={styles.button}>Book a free demo</button></Link>
             <div className={styles.iconBox}>
                 <div className={styles.triblue}  style={{transform:`translateY(${offsetY * .1}px)`}}><Image src="/triblue.svg" width={39} height={39} alt=""/></div>
             </div>

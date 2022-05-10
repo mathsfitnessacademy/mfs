@@ -39,7 +39,7 @@ function CourseIntro() {
                         <li>General - 4 tips </li>
                     </ul>
                     </div>
-                    <Link href='/contact' passHref><button className={styles.button}>Book For Free Demo</button></Link>
+                    <Link href='https://api.whatsapp.com/send?phone=919895237349' passHref><button className={styles.button}>Book For Free Demo</button></Link>
                 </div>
                 <div className={styles.box}>
                     <div>
@@ -54,7 +54,7 @@ function CourseIntro() {
                         <li>General - 9 tips</li>
                     </ul>
                     </div>
-                    <Link href='/contact' passHref><button className={styles.button}>Book For Free Demo</button></Link>
+                    <Link href='https://api.whatsapp.com/send?phone=919895237349' passHref><button className={styles.button}>Book For Free Demo</button></Link>
                 </div>
             </div>
             <div className={styles.iconBox2}>

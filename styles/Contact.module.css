@@ -98,56 +98,56 @@
 }
 
 .socialIcon1{
+    transition: .2s;
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-image: url('../public/fb.svg');
     background-repeat: no-repeat;
     background-size: contain;
-    opacity: .5;
 }
 .socialIcon2{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-image: url('../public/twitter.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    opacity: .5;
-}
-.socialIcon3{
+    transition: .2s;
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-image: url('../public/insta.svg');
     background-repeat: no-repeat;
     background-size: contain;
-    opacity: .5;
 }
-.socialIcon4{
+.socialIcon3{
+    transition: .2s;
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-image: url('../public/youtube.svg');
+    background-image: url('../public/linkedin-blue.svg');
     background-repeat: no-repeat;
     background-size: contain;
-    opacity: .5;
+}
+.socialIcon4{
+    transition: .2s;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url('../public/whatsapp.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .socialIcon1:hover{
-    opacity: 1;
-    transition: .5s;
+    transform: scale(1.2);
+    transition: .2s;
 }
 .socialIcon2:hover{
-    opacity: 1;
-    transition: .5s;
+    transform: scale(1.2);
+    transition: .2s;
 }
 .socialIcon3:hover{
-    opacity: 1;
-    transition: .5s;
+    transform: scale(1.2);
+    transition: .2s;
 }
 .socialIcon4:hover{
-    opacity: 1;
-    transition: .5s;
+    transform: scale(1.2);
+    transition: .2s;
 }
 
 .forms{

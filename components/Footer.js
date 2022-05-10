@@ -14,7 +14,7 @@ function Footer() {
                     </div>
                     <div className={styles.footTexts}>
                         <h3 className={styles.caption}>Call</h3>
-                        <h3 className={styles.contact}>+91 9895237349</h3>
+                        <h3 className={styles.contact}>+91 9895230914</h3>
                     </div>
                 </div>
                 <div className={styles.icon}>
@@ -23,11 +23,11 @@ function Footer() {
                     </div>
                     <div className={styles.footTexts}>
                         <h3 className={styles.caption}>Mail</h3>
-                        <h3 className={styles.contact}>info&#64;fitnessacademy&#183;com</h3>
+                        <h3 className={styles.contact}>info&#64;mathsfitnessacademy&#183;com</h3>
                     </div>
                 </div>
                 <div className={styles.icon}>
-                    <Link  href='/contact' passHref><button className={styles.footbtn}>BOOK A FREE DEMO</button></Link>
+                    <Link  href='https://api.whatsapp.com/send?phone=919895237349' passHref><button className={styles.footbtn}>BOOK A FREE DEMO</button></Link>
                 </div>
             </div>
             <div style={{ borderTop: "2px solid #eee ", marginLeft: 60, marginRight: 60 }}></div>
@@ -43,7 +43,7 @@ function Footer() {
                     <Link href='https://www.facebook.com/mathsfitnessacademy' passHref><a className={styles.iconLink}><div className={styles.socialIcon}><Image src="/fb.svg" width={35} height={35} alt=""/></div></a></Link>
                     <Link href='https://www.instagram.com/mathsfitnessacademy' passHref><a className={styles.iconLink}><div className={styles.socialIcon}><Image src="/insta.svg" width={35} height={35} alt=""/></div></a></Link>
                     <Link href='https://www.linkedin.com/company/maths-fitness-academy/' passHref><a className={styles.iconLink}><div className={styles.socialIcon}><Image src="/linkedin-blue.svg" width={35} height={35} alt=""/></div></a></Link>
-                    <Link href='' passHref><a className={styles.iconLink}><div className={styles.socialIcon}><Image src="/whatsapp.svg" width={35} height={35} alt=""/></div></a></Link>
+                    <Link href='https://api.whatsapp.com/send?phone=919895237349' passHref><a className={styles.iconLink}><div className={styles.socialIcon}><Image src="/whatsapp.svg" width={35} height={35} alt=""/></div></a></Link>
                 </div>
             </div>
             <div style={{ borderTop: "2px solid #eee ", marginLeft: 60, marginRight: 60 }}></div>

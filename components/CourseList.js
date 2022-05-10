@@ -49,7 +49,7 @@ function CourseList() {
                             <li>Validity: 66 days</li>
                         </ul>
                         </div>
-                        <Link href='/contact' passHref><button className={styles.button}>Book For Free Demo</button></Link>
+                        <Link href='https://api.whatsapp.com/send?phone=919895237349' passHref><button className={styles.button}>Book For Free Demo</button></Link>
                     </div>
                     <div className={styles.box}>
                         <div className={styles.boxDet}>
@@ -72,7 +72,7 @@ function CourseList() {
                             <li>Validity: 66 days</li>
                         </ul>
                         </div>
-                        <Link href='/contact' passHref><button className={styles.button}>Book For Free Demo</button></Link>
+                        <Link href='https://api.whatsapp.com/send?phone=919895237349' passHref><button className={styles.button}>Book For Free Demo</button></Link>
                     </div>
                     <div className={styles.box}>
                         <div className={styles.boxDet}>
@@ -99,7 +99,7 @@ function CourseList() {
                             </li>
                         </ul>
                         </div>
-                        <Link href='/contact' passHref><button className={styles.button}>Book For Free Demo</button></Link>
+                        <Link href='https://api.whatsapp.com/send?phone=919895237349' passHref><button className={styles.button}>Book For Free Demo</button></Link>
                     </div>
                 </div>
 

@@ -17,10 +17,22 @@ function Contact() {
             if (!field.name) return;
             formData[field.name]=field.value;
         });
-        fetch('/api/mail',{
-            method: 'post',
-            body: JSON.stringify(formData)
-        })
+        //const msg = JSON.stringify(formData);
+        var msg = 'Hai, I am '+formData.fname+' '+formData.lname+'. You can contact me by \"'+formData.mail+'\" or by phone through \"'+formData.phone+'\". ';
+        var purpose = ''
+        if (formData.mfs=='demo'){
+            purpose = 'I would like to book a demo course. '
+        }else if(formData.mfs=='job'){
+            purpose = 'I would like to know if you have any job opportunity. '
+        }else if(formData.mfs=='idea'){
+            purpose = 'I have an idea to share with you. '
+        }else if(formData.mfs=='course'){
+            purpose = 'I would like to know more about available courses. '
+        }else{
+
+        }
+        const text = msg+purpose+'\"'+formData.message+'\"';
+        location="https://api.whatsapp.com/send?phone=919895237349&text="+text+"";
     }
     
     return (
@@ -51,10 +63,10 @@ function Contact() {
                         <h3 className={styles.text}>C.M Mathew Brothers Arcade, West Nadakkave, Kozhikode, Kerala 673006 </h3>
                     </div>
                     <div className={styles.social_icons}>
-                        <Link href='/'><a className={styles.iconLink}><div className={styles.socialIcon1}></div></a></Link>
-                        <Link href='/'><a className={styles.iconLink}><div className={styles.socialIcon2}></div></a></Link>
-                        <Link href='/'><a className={styles.iconLink}><div className={styles.socialIcon3}></div></a></Link>
-                        <Link href='/'><a className={styles.iconLink}><div className={styles.socialIcon4}></div></a></Link>
+                        <Link href='https://www.facebook.com/mathsfitnessacademy'><a className={styles.iconLink}><div className={styles.socialIcon1}></div></a></Link>
+                        <Link href='https://www.instagram.com/mathsfitnessacademy'><a className={styles.iconLink}><div className={styles.socialIcon2}></div></a></Link>
+                        <Link href='https://www.linkedin.com/company/maths-fitness-academy/'><a className={styles.iconLink}><div className={styles.socialIcon3}></div></a></Link>
+                        <Link href='https://api.whatsapp.com/send?phone=919895237349'><a className={styles.iconLink}><div className={styles.socialIcon4}></div></a></Link>
                     </div>
                 </div>
                 <div className={styles.forms}>

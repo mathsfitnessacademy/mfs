@@ -81,7 +81,7 @@ function Header() {
                     </Link>
 
                     <Link href='/contact' passHref>
-                        <button className={styles.btn}>Call us: +91 9544138443</button>
+                        <button className={styles.btn}>Call us: +91 9895230914</button>
                     </Link>
                 </div>
                 <button className={isOpen === false ?
