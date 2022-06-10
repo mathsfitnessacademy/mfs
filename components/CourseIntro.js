@@ -27,7 +27,7 @@ function CourseIntro() {
                     <div>
                     <h2 className={styles.boxHeader}>Basic</h2>
                     <h1 className={styles.days}>3 Months</h1>
-                    <p className={styles.boxDesc}>A 66-day course covering 50 basic techniques, eligibility: class 5 or above.</p>
+                    <p className={styles.boxDesc}>A 3-month course covering 50 basic techniques, eligibility: class 5 or above.</p>
                     <ul className={styles.listItems}>
                         <li>Adding mentally - 2 tips</li>
                         <li>Subtraction by reverse addition-2 tips.</li>
@@ -45,7 +45,7 @@ function CourseIntro() {
                     <div>
                     <h1 className={styles.boxHeader}>Advanced</h1>
                     <h1 className={styles.days}>3 Months</h1>
-                    <p className={styles.boxDesc}>A 66-day course covering 50 advanced techniques, eligibility: class 8 or above.</p>
+                    <p className={styles.boxDesc}>A 3-month course covering 50 advanced techniques, eligibility: class 8 or above.</p>
                     <ul className={styles.listItems}>
                         <li>Numbers squared - 6 tips </li>
                         <li>Number cube - 1 tip</li>
