@@ -27,7 +27,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className={styles.icon}>
-                    <Link  href='https://api.whatsapp.com/send?phone=919895237349' passHref><button className={styles.footbtn}>BOOK A FREE DEMO</button></Link>
+                    <Link  href='https://api.whatsapp.com/send?phone=919895237349&text=Book a free demo' passHref><button className={styles.footbtn}>BOOK A FREE DEMO</button></Link>
                 </div>
             </div>
             <div style={{ borderTop: "2px solid #eee ", marginLeft: 60, marginRight: 60 }}></div>

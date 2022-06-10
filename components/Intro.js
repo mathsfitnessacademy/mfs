@@ -23,7 +23,7 @@ function Intro() {
                 <div className={styles.banner}>
                     <h1 className={styles.title}>Get math fit</h1>
                     <p className={styles.desc}>By learning the right techniques and practising daily, you will become math-fit.</p>
-                    <Link href='/about' passHref><button className={styles.button}>Explore</button></Link>
+                    <Link href="https://api.whatsapp.com/send?phone=919895237349&text=Book a free demo" passHref><button className={styles.button}>Book For Free Demo</button></Link>
                 </div>
                 
             </div>

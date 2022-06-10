@@ -30,7 +30,8 @@ function Training() {
                         <li>A mentor is assigned along with the faculty for handling class.</li>
                         <li>Students Video should be on and mentor always observing students.</li>
                         <li>Clearing doubts from previous sessions.</li>
-                        <li>Class starts with a recap of the last session and lasts week&apos;s practice review.After explaining new tips, Practice questions are given to students.</li>
+                        <li>Class starts with a recap of the last session and last week&apos;s practice review.</li>
+                        <li>After explaining new tips, Practice questions are given to students.</li>
                         <li>If anyone fails to give the answer, the tip is explained again.</li>
                         <li>Faculty and mentor leaves only after clearing the doubts of all students.</li>
                         <li>Mentor checks the class notes for any corrections.</li>

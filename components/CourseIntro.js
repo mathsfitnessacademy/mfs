@@ -26,7 +26,7 @@ function CourseIntro() {
                 <div className={styles.box}>
                     <div>
                     <h2 className={styles.boxHeader}>Basic</h2>
-                    <h1 className={styles.days}>66 days</h1>
+                    <h1 className={styles.days}>3 Months</h1>
                     <p className={styles.boxDesc}>A 66-day course covering 50 basic techniques, eligibility: class 5 or above.</p>
                     <ul className={styles.listItems}>
                         <li>Adding mentally - 2 tips</li>
@@ -39,12 +39,12 @@ function CourseIntro() {
                         <li>General - 4 tips </li>
                     </ul>
                     </div>
-                    <Link href='https://api.whatsapp.com/send?phone=919895237349' passHref><button className={styles.button}>Book For Free Demo</button></Link>
+                    <Link href='https://api.whatsapp.com/send?phone=919895237349&text=Book a free demo' passHref><button className={styles.button}>Book For Free Demo</button></Link>
                 </div>
                 <div className={styles.box}>
                     <div>
                     <h1 className={styles.boxHeader}>Advanced</h1>
-                    <h1 className={styles.days}>66 days</h1>
+                    <h1 className={styles.days}>3 Months</h1>
                     <p className={styles.boxDesc}>A 66-day course covering 50 advanced techniques, eligibility: class 8 or above.</p>
                     <ul className={styles.listItems}>
                         <li>Numbers squared - 6 tips </li>
@@ -54,7 +54,7 @@ function CourseIntro() {
                         <li>General - 9 tips</li>
                     </ul>
                     </div>
-                    <Link href='https://api.whatsapp.com/send?phone=919895237349' passHref><button className={styles.button}>Book For Free Demo</button></Link>
+                    <Link href='https://api.whatsapp.com/send?phone=919895237349&text=Book a free demo' passHref><button className={styles.button}>Book For Free Demo</button></Link>
                 </div>
             </div>
             <div className={styles.iconBox2}>
