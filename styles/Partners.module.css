@@ -1,0 +1,36 @@
+.container{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+.welcomeHeader{
+    margin: 20px;
+    font: normal normal normal 22px/30px "Lato";
+    letter-spacing: 0px;
+    color: #E84048;
+    opacity: 1;
+}
+.header{
+    margin: 40px auto 20px auto;
+    font: normal normal 900 40px/56px "Lato";
+    max-width: 50%;
+    letter-spacing: 0px;
+    color: #3A3564;
+    text-transform: uppercase;
+}
+.block{
+    margin: 0 auto;
+    display: block;
+    max-width: 80%;
+}
+.box{
+    display: inline-block;
+    margin: 0 10px;
+    z-index: 1;
+    padding: 20px;
+    border-radius: 10px;
+}
+.boxImage{
+    margin: 10px auto;
+}

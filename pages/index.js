@@ -8,6 +8,7 @@ import Training from '../components/Training'
 import Demo from '../components/Demo'
 import Tracking from '../components/Tracking'
 import Testimonial from '../components/Testimonial'
+import Partners from '../components/Partners'
 
 
 
@@ -26,6 +27,7 @@ function Home(){
             <Training/>
             <Demo/>
             <Tracking/>
+            <Partners/>
             <Testimonial/>
         </div>
     )

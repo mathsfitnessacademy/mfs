@@ -27,7 +27,12 @@
 .title{
     font: normal normal bold 56px/60px "Segoe UI";
     color: #3A3564;
+}
+.iso{
+    font: normal normal bold 18px/24px "Segoe UI";
+    color: #3A3564;
     margin-bottom: 20px;
+    margin-left: 5px;
 }
 .desc{
     font-size: 20px;
