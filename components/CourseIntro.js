@@ -56,6 +56,24 @@ function CourseIntro() {
                     </div>
                     <Link href='https://api.whatsapp.com/send?phone=919895237349&text=Book a free demo' passHref><button className={styles.button}>Book For Free Demo</button></Link>
                 </div>
+                <div className={styles.box}>
+                    <div>
+                    <h2 className={styles.boxHeader}>Competitive exams cracker</h2>
+                    <h1 className={styles.days}>4 months</h1>
+                    <p className={styles.boxDesc}>A 4-month course covering 100 basic techniques, eligibility: class 11 or above.</p>
+                    <ul className={styles.listItems}>
+                        <li>Adding mentally - 2 tips</li>
+                        <li>Subtraction by reverse addition-2 tips.</li>
+                        <li>Numbers squared -14 tips </li>
+                        <li>Number cube - 5 tips</li>
+                        <li>Cube roots - 1 tip</li>
+                        <li>Multiplication tips - 48 </li>
+                        <li>How to divide - 15 tips </li>
+                        <li>General - 14 tips </li>
+                    </ul>
+                    </div>
+                    <Link href='https://api.whatsapp.com/send?phone=919895237349&text=Book a free demo' passHref><button className={styles.button}>Book For Free Demo</button></Link>
+                </div>
             </div>
             <div className={styles.iconBox2}>
                 <div className={styles.plus2} style={{transform:`translateY(${offsetY * .5}px)`}}><Image src="/plus.svg" width={85} height={80} alt=""/></div>

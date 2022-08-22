@@ -22,7 +22,7 @@ function Intro() {
                 </div>
                 <div className={styles.banner}>
                     <h1 className={styles.title}>Get math fit</h1>
-                    <h2 className={styles.iso}>ISO 9001:2015 CERTFIED COMPANY</h2>
+                    <h2 className={styles.iso}>ISO 9001:2015 CERTIFIED COMPANY</h2>
                     <p className={styles.desc}>By learning the right techniques and practising daily, you will become math-fit.</p>
                     <Link href="https://api.whatsapp.com/send?phone=919895237349&text=Book a free demo" passHref><button className={styles.button}>Book For Free Demo</button></Link>
                 </div>
