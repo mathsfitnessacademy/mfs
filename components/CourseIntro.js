@@ -60,7 +60,7 @@ function CourseIntro() {
                     <div>
                     <h2 className={styles.boxHeader}>Competitive exams cracker</h2>
                     <h1 className={styles.days}>4 months</h1>
-                    <p className={styles.boxDesc}>A 4-month course covering 100 basic techniques, eligibility: class 11 or above.</p>
+                    <p className={styles.boxDesc}>A 4-month course covering 100 techniques, eligibility: class 11 or above.</p>
                     <ul className={styles.listItems}>
                         <li>Adding mentally - 2 tips</li>
                         <li>Subtraction by reverse addition-2 tips.</li>
